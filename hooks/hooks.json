@@ -1,0 +1,17 @@
+{
+  "description": "Load accumulated auto-learning rules into every session so they stay always-on.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash",
+            "args": ["${CLAUDE_PLUGIN_ROOT}/scripts/load-rules.sh"],
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

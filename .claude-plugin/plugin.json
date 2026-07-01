@@ -1,0 +1,20 @@
+{
+  "name": "auto-learning",
+  "description": "Turn lessons from a working session into durable rules for Claude Code. A manual, one-shot reflection loop that derives a rule, filters it for quality, decides where it belongs in your config, and records it — with a session-start hook that keeps accumulated rules active every session.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Alexey Bashinskii",
+    "url": "https://github.com/code0n-kn33s"
+  },
+  "homepage": "https://github.com/code0n-kn33s/auto-learning",
+  "repository": "https://github.com/code0n-kn33s/auto-learning",
+  "license": "MIT",
+  "keywords": [
+    "self-improvement",
+    "memory",
+    "rules",
+    "reflection",
+    "config",
+    "meta"
+  ]
+}
