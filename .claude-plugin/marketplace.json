@@ -1,0 +1,15 @@
+{
+  "name": "code0n-kn33s",
+  "owner": {
+    "name": "Alexey Bashinskii",
+    "url": "https://github.com/code0n-kn33s"
+  },
+  "plugins": [
+    {
+      "name": "auto-learning",
+      "source": "./",
+      "description": "Teach Claude Code from real sessions: a manual reflection loop that records durable rules, kept always-on via a SessionStart hook.",
+      "homepage": "https://github.com/code0n-kn33s/auto-learning"
+    }
+  ]
+}
